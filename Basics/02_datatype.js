@@ -25,5 +25,8 @@ let isLoggedIn=false //boolean
 
 console.log(typeof "Punit")// string
 console.log(typeof undefined)// undefined
-console.log(typeof null)// object
+console.log(typeof null==="object")// object
 console.log(typeof age)// number
+
+const x=BigInt(Number.MAX_SAFE_INTEGER)
+console.log(x)
