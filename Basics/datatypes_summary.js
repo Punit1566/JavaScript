@@ -41,6 +41,31 @@ const myFunction=function(){
 //kaise easily datatype pta kr skte hai
 console.log(typeof heros)
 
+//+++++++++++++++++++++++++++++++++++
+
+/*
+    Memory: Stack,Heap
+    All Primitive datatype uses Stack memory
+    All non - Primitive data type uses Heap memory
+
+*/
+
+let myYoutubeName="punityoutubedotcom"
+let anothername=myYoutubeName
+anothername="ChaiaurCode"
+console.log(myYoutubeName)//punityoutubedotcom
+console.log(anothername)//ChaiaurCode
+
+
+let userOne={
+    email:"user@google.com",
+    upi:"user@ybl",
+}
+
+let userTwo=userOne
+console.log(userTwo)
+userTwo.email="punit@gmail,com"//value will be changed in both userOne and userTwo
+console.log(userOne)
 
 
 
